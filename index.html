@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./responsive.css">
+  </head>
+  <body>
+    <div class="body-container">
+      <div class="container">
+        <span>
+          <form class="form">
+            <input type="text" class="search" placeholder="Enter channel name" required>
+            <button type="submit">Find channel</button>
+          </form>
+        </span>
+        <span><button class="load-samples">Load sample channels</button></span>
+        <div class="warning"></div>
+        <div class="header">
+          <h1>TWITCH STREAMS</h1>
+          <div class="menu">
+            <div class="filter all active">
+              <span class=circle></span>
+              <span class="filter-label">All</span>
+            </div>
+            <div class="filter online">
+              <span class=circle></span>
+              <span class="filter-label">Online</span>
+            </div>
+            <div class="filter offline">
+              <span class=circle></span>
+              <span class="filter-label">Offline</span>
+            </div>
+          </div>
+        </div>
+        <div class="online-streams"></div>
+        <div class="offline-streams"></div>
+        <div class="footer"></div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./js/main.js"></script>
+</html>

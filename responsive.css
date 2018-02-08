@@ -1,0 +1,40 @@
+@media screen and (max-width: 500px) {
+	.header h1 {
+	  padding: 30px 0 30px 25px;
+	  margin-bottom: 30px;
+	  vertical-align: middle;
+	}
+	.stream-logo {
+		display: none;
+	}
+	.stream-name {
+		text-align: initial;
+		margin-left: 5px;
+	}
+	.stream-status {
+		max-width: 200px;
+		max-height: 100%;
+	}
+	.load-samples {
+		margin-top: 5px;
+	}
+	.header h1 {
+		width: 50px;
+	}
+	.delete {
+		margin: 0;
+	}
+}
+
+@media screen and (min-width: 999px) {
+	.body-container {
+	  width: 1000px;
+	  margin: 0 auto;
+	}
+
+	.container {
+	  width: 50%;
+	  margin: 0 auto;
+	  padding-bottom: 20px;
+	}
+}
